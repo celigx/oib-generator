@@ -3,6 +3,7 @@ import './App.sass';
 
 function App() {
   const [number, setNumber] = useState(Math.floor(Math.random() * 9000000000) + 1000000000)
+  const [copyMessage, setCopyMessage] = useState('Copy!')
   
   // Create random 10 digit number
   const randomNumber = () => {
@@ -40,9 +41,18 @@ function App() {
   const OIB = numberArray.concat(controlNumber()).join('')
   console.log(OIB);
 
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(OIB)
+    setCopyMessage('Copied!')
+  }
+
+  const changeMessage = () => {
+    setCopyMessage('Copy!')
+  }
+
   return (
     <div className="app">
-      <h1 className="oib">{OIB}</h1>
+      <h1 className="oib tooltip" onClick={() => copyToClipboard()} onMouseLeave={changeMessage}>{OIB} <span className="tooltipText">{copyMessage}</span></h1>
       <button className="button" onClick={() => randomNumber()}>Generiraj novi OIB</button>
     </div>
   );

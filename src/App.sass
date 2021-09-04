@@ -20,3 +20,41 @@ h1, h2, h3, h4, h5, h6, p, a, button
     border-radius: 4px
     border-width: 0px
     padding: 15px 25px
+
+  .tooltip
+    cursor: pointer
+    position: relative
+    display: inline-block
+    border-bottom: 1px dotted black
+
+    &:hover
+      .tooltipText
+        visibility: visible
+        opacity: 1
+
+    .tooltipText
+      font-size: 16px
+      text-align: center
+      color: #000
+      background: #f4c85a
+      width: 120px
+      border-radius: 4px
+      visibility: hidden
+      position: absolute
+      bottom: 125%
+      left: 50%
+      opacity: 0
+      z-index: 1
+      padding: 10px 0
+      margin-left: -60px
+      transition: opacity 0.3s
+
+      &::after
+        content: ""
+        position: absolute
+        top: 100%
+        left: 50%
+        border-width: 5px
+        border-style: solid
+        border-color: #f4c85a transparent transparent transparent
+        margin-left: -5px
