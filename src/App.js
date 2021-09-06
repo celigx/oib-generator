@@ -52,6 +52,7 @@ function App() {
 
   return (
     <div className="app">
+      <h1 className="title">OIB Generator</h1>
       <h1 className="oib tooltip" onClick={() => copyToClipboard()} onMouseLeave={changeMessage}>{OIB} <span className="tooltipText">{copyMessage}</span></h1>
       <button className="button" onClick={() => randomNumber()}>Generiraj novi OIB</button>
     </div>
