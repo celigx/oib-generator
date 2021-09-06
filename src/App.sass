@@ -61,3 +61,14 @@ h1, h2, h3, h4, h5, h6, p, a, button
         border-style: solid
         border-color: #f4c85a transparent transparent transparent
         margin-left: -5px
+
+@media screen and ( max-width: 768px)
+  .app
+    .tooltip
+      cursor: default
+      &:hover
+        .tooltipText
+          visibility: hidden
+
+      .tooltipText
+        display: none
