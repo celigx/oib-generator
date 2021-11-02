@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/oib-generator/static/css/main.28ccba0b.chunk.css",
+    "main.js": "/oib-generator/static/js/main.75cec035.chunk.js",
+    "main.js.map": "/oib-generator/static/js/main.75cec035.chunk.js.map",
+    "runtime-main.js": "/oib-generator/static/js/runtime-main.4e1e3aeb.js",
+    "runtime-main.js.map": "/oib-generator/static/js/runtime-main.4e1e3aeb.js.map",
+    "static/js/2.fc589308.chunk.js": "/oib-generator/static/js/2.fc589308.chunk.js",
+    "static/js/2.fc589308.chunk.js.map": "/oib-generator/static/js/2.fc589308.chunk.js.map",
+    "static/js/3.9c85fee2.chunk.js": "/oib-generator/static/js/3.9c85fee2.chunk.js",
+    "static/js/3.9c85fee2.chunk.js.map": "/oib-generator/static/js/3.9c85fee2.chunk.js.map",
+    "index.html": "/oib-generator/index.html",
+    "static/css/main.28ccba0b.chunk.css.map": "/oib-generator/static/css/main.28ccba0b.chunk.css.map",
+    "static/js/2.fc589308.chunk.js.LICENSE.txt": "/oib-generator/static/js/2.fc589308.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e1e3aeb.js",
+    "static/js/2.fc589308.chunk.js",
+    "static/css/main.28ccba0b.chunk.css",
+    "static/js/main.75cec035.chunk.js"
+  ]
+}
